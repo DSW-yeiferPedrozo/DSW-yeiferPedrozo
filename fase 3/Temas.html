@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Document</title>
+    <script src="prefix.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="menu.css">
+</head>
+<body>
+    <div class="contenedor">
+        <header class="header">
+            <div class="logo">
+				<img src="descarga.jpg" width="150" alt="">
+				<a href="index.html">logo</a>
+			</div>
+            <span class="menu-icon">ver menu</span>
+            <nav class="navigation">
+                <ul class="menu">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="Temas.html">Temas</a></li>
+                    <li><a href="#">Recursos Digitales</a></li>
+                    <li><a href="#">Aprendizaje</a>
+                        <ul class="submenu">
+                            <li><a href="#">Submenu1</a></li>
+                            <li><a href="#">Submenu2</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="autor.html">Autor</a></li>
+                </ul>
+            </nav>
+
+        </header>
+    
+        
+    
+        <section class="main">
+            <article>
+                <h2 align="center" class="titulo">¿QUE ES FLEX?</h2>
+            </article>
+            <article>
+                <p>Flex es uno de los nuevos valores HTML5 para propiedad CSS display, que nos permite
+                   maquinar nuestras páginas web de una manera mucho más fácil de lo que se hacía con la 
+                   forma tradicional, en la que utilizábamos propiedades como float o position, entre otras.</p>
+            </article>
+            <article>
+                <h2 class="titulo">¿Por qué Flex?</h2>
+            <br>
+                <p>Se llama Flex porque tenemos un contenedor, llamado contenedor Flex, que es el elemento 
+                    que contiene la propiedad <i>display: flex.</i></p>
+                    <br>
+                <p>Desde ese contenedor vamos a poder especificar la alineación de los elementos que hay dentro, 
+                    el tamaño de los elementos que contienen y distribuir el espacio restante que hay entre los 
+                    elementos del contenedor Flex, y todo esto en una sola dirección, ya sea una horizontal o vertical. 
+                    Es decir, podemos distribuir los elementos que contiene la etiqueta sin poner nada dentro de estos 
+                    elementos.</p>
+            </article>
+            <article>
+                <h2 class="titulo">¿Que podemos hacer con Flexbox?</h2>
+            <br>
+                <p><li>Diseños flexibles con menos código.</li></p>
+                <p><li>Alinear los elementos de manera vertical y horizontal.</li></p>
+                <p><li>Reordenar contenido sin tocar el HTML.</li></p>  
+            </article>
+            <article>
+                <h2 class="titulo"><b>Conceptos Básicos</b></h2>
+            <br>
+                <p>Los elementos básicos de Flexbox son:</p> 
+                <img src="https://static.platzi.com/media/user_upload/1-78277fd8-7fdb-47f0-ace6-b1a233f3ce8b.jpg" width="500" height="200">            
+            <br>
+            <br>
+            
+            <p><b>1.Contenedor.&nbsp;&nbsp;</b>Existe un elemento padre que es el contenedor, ya que tendrá en su interior cada uno de los ítems
+                 flexibles y adaptables.</p>
+                 <br>
+                 <p><li><b>Eje principal.</b> Los contenedores flexibles tendrán una orientación principal específica. Por defecto es horizontal con 
+                     el valor row.</li></p><br>
+                <p><li><b>Eje secundario.</b> De la misma forma que el eje principal, solo que esta orientación será perpendicular a la principal. Si 
+                     la principal es horizontal, la secundaría será vertical con el valor column, y viceversa.</li></p><br><br>
+
+            <p><b>2.ítem.&nbsp;&nbsp;</b>Cada uno de los hijos flexibles que tendrá el contenedor en su interior. </p> 
+                 <p>Viendo esto en código sería de la siguiente forma.</p><br>
+
+                 <img src="img/flex1.png" width="500" height="150"><br>
+                 <p>Para volver a dicho contenedor un contenedor flexible habrá que modificar su valor display por defecto.</p><br>
+                 <img src="img/flex2.png" width="500" height="100">  
+
+            <br><br><br><br><br><br>
+
+            <div align="center"><a href="Temas2.html"><img  src="img/siguiente.png" width="100" height="50"></a></div>
+        </article>
+        </section>
+        
+        <aside>
+            <div class="widget">
+                <div class="imagen"></div>
+            </div>
+            <div class="widget">
+                <div class="imagen"></div>
+            </div>
+        </aside>
+
+        <footer class="footer">
+            <div class="social">
+                <a href="#">FB</a>
+                <a href="#">TW</a>
+            </div>
+        </footer>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" ></script>    
+    <script src="css js/scripts.js"></script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+.submenu {
+    position: absolute;
+    width: 120%;
+    display: none;
+}
+.submenu li a {
+    display: block;
+    padding: 15px;
+    
+}
+
+.menu li:hover .submenu{
+    display: block;
+}
